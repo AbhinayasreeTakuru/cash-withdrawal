@@ -1,9 +1,11 @@
 #include<stdio.h>
+#include<conio.h>
 unsigned long amount=25000, deposit, withdraw;
 int choice, pin, i;
 char transaction ='y';
 void main()
 {
+ clrscr();  
  while (pin != 1097)
  {
    printf("ENTER YOUR PIN NUMBER: ");
@@ -63,4 +65,5 @@ void main()
     i = 1;
  } while (!i);
     printf("\n\n THANKS FOR USING OUR ATM SERVICE");
+    getch();
 }
