@@ -1,5 +1,5 @@
-#include<stdio.h>
-#include<conio.h>
+#include <stdio.h>
+#include <conio.h>
 unsigned long amount=25000, deposit, withdraw;
 int choice, pin, i;
 char transaction ='y';
