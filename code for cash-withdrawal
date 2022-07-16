@@ -58,7 +58,7 @@ void main()
     default:
     printf("\n INVALID CHOICE");
    }
-    printf("\n\n\n DO U WISH TO HAVE ANOTHER TRANSCATION?(y/n): ");
+    printf("\n\n\n DO U WISH TO HAVE ANOTHER TRANSACTION?(y/n): ");
     fflush(stdin);
     scanf("%c", &transaction);
    if (transaction == 'n'|| transaction == 'N')
